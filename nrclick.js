@@ -4,3 +4,5 @@ function count(){
       thisCount = thisCount + 1;
   $("#count").html(thisCount);
 }
+
+alert('適応されてます！');
