@@ -1,8 +1,6 @@
-let number  = document.querySelector('h1');
-let plusImg = $("#buttonc");
-let count   = 0;
-
-function clickimg()  {
-    count ++; 
-    number.innerHTML = count;
-});
+function count(){
+  var thisCount = $("#count").html();
+      thisCount = Number(thisCount);
+      thisCount = thisCount + 1;
+  $("#count").html(thisCount);
+}
