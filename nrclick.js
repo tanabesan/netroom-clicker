@@ -1,5 +1,5 @@
 let number  = document.querySelector('h1');
-let plusImg = $("#clickimg");
+let plusImg = $("#buttonc");
 let count   = 0;
 
 function clickimg()  {
