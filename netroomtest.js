@@ -1,3 +1,8 @@
-let clickn = 0;
-let cln = 1;
-let cl = clickn + cln;
+let number  = document.querySelector('h1');
+let plusImg = $("#clickimg");
+let count   = 0;
+
+plusImg.addEventListener('click', () => {
+    count ++; 
+    number.innerHTML = count;
+});
