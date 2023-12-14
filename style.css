@@ -9,7 +9,8 @@
 #counter{
         width: 100%;
     font-size: 64pt;
-         left: 150px;
+     position:relative;
+         left: 50px;
   font-family: sans-serif;
     
 }
@@ -17,7 +18,7 @@
 #btnAdd{
     width: 300;
    height: 300;
-     left: 100px;
+     
 
 }
 
