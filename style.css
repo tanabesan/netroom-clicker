@@ -17,3 +17,7 @@
     width: 100%;
     font-size: 64pt;
 }
+
+body {
+  background-color:  purple;
+}
