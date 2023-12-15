@@ -8,20 +8,62 @@
 
 #counter{
         width: 100%;
-    font-size: 64pt;
+    font-size: 30pt;
      position:relative;
-         left: 300px;
+         left: 20px;
   font-family: sans-serif;
+        color: white;
+    font-weight: bold;
+
     
 }
 
+ #room{
+        color: white;
+        font: sans-serif;
+}
+
 #btnAdd{
-    width: 300;
-   height: 300;
+    width: 150px;
+   height: 150px;
      
 
 }
+ul{
+  width: 150px;
+  height: 200px;
+  overflow:auto;
+  background-color:rgba(255,255,255,0.7);
+  position:absolute;
+     left:370px;
+     top: 10px;
+     padding: 5px;
+     border-top-left-radius:5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.list{
+  background-color:white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+ padding: 2px;
+ margin:4px;
+ font-size:15px;
+}
 
 body {
-  background-color:  purple;
+  background-image: url(https://tanabesan.github.io/netroom-clicker/IMG_9530.jpeg);
+}
+.userimg{
+       width:20px;
+       height:20px;
+}
+span{
+    font-size: 10px;
+}
+p.setsu{
+    font-size:12px;
 }
