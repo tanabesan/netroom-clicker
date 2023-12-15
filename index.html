@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://tanabesan.github.io/netroom-clicker/style.css">
-    <script src="https://tanabesan.github.io/netroom-clicker/main.js"></script>
+  
     <title>counter</title>
 </head>
 <body>
-    <p id="counter">0</p>
+    <span>作られた部屋<h1 id="counter">0</h1>部屋</span>
     <p><img src="https://tanabesan.github.io/netroom-clicker/IMG_9527-removebg-preview.png" id="btnAdd"></p>
+       <ul>
+        <span class=roomi>キャラ一覧</span>
+           <li id="list1" class="list" onclick=guest()>
+               <img class="userimg" src=https://netroom.co.jp/img/user2/guest/1.jpg>ゲスト
+               <span id="guestcost" class=cost>10</span><span>部屋必要
+               <p class="setsu">10秒毎に1部屋作成してくれます。</p>
+           </li>
+           <li id="list2" class="list">
+               <img class=userimg src=https://netroom.co.jp/img/user2/no_img/0.jpg>ユーザー
+               <span id="usercost" class=cost>100</span><span>部屋必要</span>
+               <p class=setsu>1秒毎に1部屋作成してくれます。 </p>
+           </li>
+           <li id="list3" class="list">
+                <img class="userimg" src=https://netroom.co.jp/img/user2/65476e8e446640030dd95ca1/24.jpg>🧊璃空🍧
+               <span id="rikucost" class=cost>1200</span><span>部屋必要</span>
+               <p class=setsu>1秒毎に15部屋作成してくれます。</p>
+           </li>
+      </ul>
+    
 </body>
 </html>
+        
